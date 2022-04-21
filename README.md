@@ -25,7 +25,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshots/screenshot_1.jpg)
-![](./screenshots/screenshot_2.png)
 
 ### Links
 
