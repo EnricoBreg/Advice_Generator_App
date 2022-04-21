@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Manrope', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    background: hsl(218, 23%, 16%);
+}
+
+/* Card is my general container */
+.card {
+    max-width: 550px;
+    margin: 200px auto;
+    padding: 50px;
+    background:  hsl(217, 19%, 24%);
+    color: hsl(193, 38%, 86%);
+    border-radius: 15px;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 60px 15px; 
+}
+
+.card .card-header {
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: hsl(150, 100%, 66%);
+}
+
+.card .card-body {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card .card-body .divider {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+    max-width: 100%;
+    padding: 10px;
+
+    background: url("images/pattern-divider-desktop.svg") no-repeat center;
+}
+
+/* Dice btn */
+.card .dice {
+    background: hsl(150, 100%, 66%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+
+    position: relative;
+    margin: 0px auto -75px auto;
+}
+
+/* Active state */
+.card .dice:hover{
+    animation: pulsate 2s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: hsl(150, 100%, 66%) 0px 0px 30px 5px;
+    }
+}
+
+/* Footer */
+.attribution {
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
