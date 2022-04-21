@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/EnricoBreg/Advice_Generator_App.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/EnricoBreg/Advice_Generator_App.git)
+- Live Site URL: (https://62617c45634cc30cd9345a29--graceful-otter-855220.netlify.app/)
 
 ### Built with
 
